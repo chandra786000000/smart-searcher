@@ -2,7 +2,7 @@
 
 import sys
 import re
-from porterStemmer import PorterStemmer
+from nltk import PorterStemmer
 import copy
 
 porter=PorterStemmer()
